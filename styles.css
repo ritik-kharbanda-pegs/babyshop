@@ -121,6 +121,11 @@ h1 {
     margin-left: 50px;
   }
 
+  .item{
+    display: flex;
+    align-items: baseline;
+  }
+
   .remove{
     padding: 0;
   }

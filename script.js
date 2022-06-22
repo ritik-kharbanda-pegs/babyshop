@@ -28,10 +28,10 @@
       itemStr=''
       for(let i=0; i<item.length;i++){
       console.log(item[i].name , item[i].price );
-      itemStr+= `<div class="row p-2  w-100">
+      itemStr+= `<div class="row p-2 w-100 item">
         <h5 class="text-white col">${item[i].name}</h5> 
         <p class="text-white col">$ ${item[i].price}.00</p>
-        <button class= "btn btn-danger col remove" data-name= ${item[i].name}>Remove</button>
+        <button class= "btn btn-danger btn-sm col remove" data-name= ${item[i].name}>Remove</button>
       </div>`
       }
       itemList.innerHTML = itemStr
