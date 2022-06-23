@@ -47,6 +47,9 @@ h1 {
 }
 
 /* card */
+.card{
+    border-radius: 0 0 8px 8px;
+}
 
 .card-title {
     font-size: 18px;
@@ -78,6 +81,13 @@ h1 {
     color: #fe6565;
 }
 
+.lop    {
+    text-decoration: none;
+    background-color: #fff;
+    color: #fe6565;
+    border-radius: 0 0 8px 8px;
+    border-color: #fe6565 ;
+}
 
 .sidenav {
     height: 100%;
@@ -123,7 +133,6 @@ h1 {
     padding: 0;
   }
 
-  #hamburger { display: none; }
   @media only screen and (min-width: 768px) and (max-width:992px) {
     .hero-btn{
         width: 50% !important;
@@ -151,8 +160,8 @@ h1 {
     .herocl{
         align-items: center;
     }
-    nav{
-        overflow:auto;
+    
+    #shoppingBagicon{
+        display: none;
     }
-
   }

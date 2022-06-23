@@ -1,8 +1,6 @@
 //open and close sidebar
   function openNav() {
     document.getElementById("mySidenav").style.width = "320px";
-  //   document.getElementById("body").classList.add('background')
-  //   document.body.style.backgroundColor = '#E0DEDE'
   }
   
   function closeNav() {
@@ -57,4 +55,7 @@
   all_items_button.forEach(elt => elt.addEventListener('click', () => {
     addItem(elt.getAttribute('id'), elt.getAttribute('data-price'))
     showItems()
+    elt.innerHTML="Added"
+    elt.classList.add("lop")
   }))
+
